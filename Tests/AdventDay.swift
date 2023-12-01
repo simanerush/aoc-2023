@@ -5,7 +5,7 @@ import XCTest
 // One off test to validate that basic data load testing works
 final class AdventDayTests: XCTestCase {
   func testInitData() throws {
-    let challenge = Day00()
+    let challenge = Day01()
     XCTAssertTrue(challenge.data.starts(with: "4514"))
   }
 }
